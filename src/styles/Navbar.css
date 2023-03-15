@@ -1,0 +1,12 @@
+.navbar {
+  background: hsl(240, 17%, 34%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: hsl(0, 0%, 100%);
+  padding: 1rem 2rem;
+}
+
+.navbar a {
+  margin-right: 1.5rem;
+}
