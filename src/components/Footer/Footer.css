@@ -1,19 +1,20 @@
 footer {
   background-image: url(../../assets/img/bg.jpg);
-  margin-bottom: 0;
   text-align: center;
   padding: 1.5rem;
   font-size: 0.7rem;
-  display: grid;
-  justify-items: center;
-  align-items: center;
 }
 
 footer a {
+  font-size: 1.2rem;
   text-decoration: none;
-  color: #eceaea;
-  display: inline-block;
-  padding-bottom: 0.5rem;
+  color: var(--white);
+  margin-bottom: 0.5rem;
+  transition: 0.3s;
+}
+
+footer a:first-child {
+  margin-right: 1rem;
 }
 
 footer a:hover {
@@ -23,5 +24,5 @@ footer a:hover {
 footer p {
   text-decoration: none;
   color: var(--white);
-  padding-top: 1rem;
+  margin-top: 1rem;
 }
