@@ -8,11 +8,6 @@ function Navbar() {
       <nav className="menu">
         <ul className="menu__lista">
           <li className="menu__item">
-            <a className="menu__link" href="index.html">
-              Home
-            </a>
-          </li>
-          <li className="menu__item">
             <a className="menu__link" href="#projetos">
               Projetos
             </a>
@@ -20,6 +15,11 @@ function Navbar() {
           <li className="menu__item">
             <a className="menu__link" href="#habilidades">
               habilidades
+            </a>
+          </li>
+          <li className="menu__item">
+            <a className="menu__link" href="#contato">
+              contato
             </a>
           </li>
         </ul>
