@@ -9,8 +9,8 @@ function AboutMe() {
         <img className="about__img" src={profile} alt="Marcelo sorrindo" />
         <p>
           Olá, eu sou o Marcelo! Nascido e criado na Zona Norte do Rio de
-          Janeiro, apaixonado por futebol. Atuo como desenvolvedor Frontend, na
-          construção de páginas web e sites dinâmicos.
+          Janeiro, apaixonado por tecnologia. Atuo como desenvolvedor Frontend,
+          na construção de páginas web e sites dinâmicos.
         </p>
       </div>
     </section>
