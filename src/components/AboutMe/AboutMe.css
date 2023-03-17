@@ -1,0 +1,27 @@
+.about__img {
+  height: 150px;
+  clip-path: circle();
+  filter: brightness(115%);
+}
+
+.about {
+  padding: 2rem 0 2rem;
+}
+
+.about__title {
+  text-align: center;
+  font-size: 3.5rem;
+}
+.about__info {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 4rem;
+  padding-inline: 15%;
+}
+
+.about__info p {
+  font-size: 1.8rem;
+  padding-right: 5rem;
+  line-height: 1.5;
+}
