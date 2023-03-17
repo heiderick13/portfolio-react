@@ -1,0 +1,38 @@
+.projects__item {
+  color: #000;
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  border: 2px solid #fefefe;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.projects__item:hover {
+  scale: 105%;
+}
+
+.projects__img {
+  height: 150px;
+  width: 100%;
+}
+
+.projects__description {
+  padding: 1.5rem;
+  min-height: 200px;
+  line-height: 1.5;
+}
+
+.projects__description h2 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  line-height: 2.5;
+}
+
+.projects__description p {
+  font-size: 1.4rem;
+  padding-inline: 2.5rem;
+}
