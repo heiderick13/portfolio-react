@@ -1,6 +1,6 @@
 import "./Card.css";
 
-function Card({ name, foto, description }) {
+function Card({ name, foto, description, deploy }) {
   return (
     <div className="projects__item">
       <div>
@@ -10,6 +10,9 @@ function Card({ name, foto, description }) {
         <h2>{name}</h2>
         <p>{description}</p>
       </div>
+      <button className="btn">
+        <a href={deploy}>Confira</a>
+      </button>
     </div>
   );
 }
