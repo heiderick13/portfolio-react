@@ -1,11 +1,8 @@
 .projects__item {
   color: #000;
   text-align: center;
-  display: inline-block;
-  width: 30%;
-  vertical-align: top;
   margin: 0 1.5%;
-  border: 2px solid #fefefe;
+  border: 2px solid #000;
   border-radius: 20px;
   overflow: hidden;
   transition: 0.5s;
