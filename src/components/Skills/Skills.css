@@ -1,0 +1,27 @@
+.skills {
+  padding: 2rem 0;
+}
+
+.skills__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 15%;
+}
+
+.skills__title {
+  text-align: center;
+  font-size: 2.8rem;
+  padding-bottom: 2rem;
+}
+
+.skills__img {
+  height: 150px;
+}
+
+.skills__content p {
+  font-size: 1.8rem;
+  text-align: justify;
+  padding-left: 5rem;
+  line-height: 1.5;
+}
