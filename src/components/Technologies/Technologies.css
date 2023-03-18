@@ -1,0 +1,21 @@
+.techs {
+  padding: 2rem 0;
+}
+
+.techs__title {
+  text-align: center;
+  font-size: 2.8rem;
+  padding-bottom: 2rem;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 15%;
+}
+
+.logos img {
+  height: 70px;
+  -webkit-clip-path: inset(3% 1% 4% 1%);
+  clip-path: inset(3% 1% 4% 1%);
+}
