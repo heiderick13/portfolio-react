@@ -5,19 +5,37 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+  font: inherit;
+  font-size: inherit;
+  text-decoration: none;
+}
+
 html {
   font-size: 62.5%;
 }
 
+body {
+  background: var(--main-bg);
+  color: var(--white);
+}
+
 :root {
+  --main-bg: hsl(233, 15%, 11%);
+  --secondary-bg: hsl(240, 3%, 6%);
+  --dark-blueish-gray: rgb(55, 57, 80);
   --white: hsl(0, 5%, 92%);
   --orange: hsl(39, 100%, 50%);
   --dark-orange: hsl(33, 100%, 50%);
 }
 
 .btn {
+  font-size: 1.5rem;
+  border: none;
   border-radius: 0.8rem;
   box-shadow: 3px 3px 8px #464f57;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
   transition: 0.3s all;
   background-color: var(--orange);
 }
@@ -26,4 +44,9 @@ html {
   transform: scale(1.05);
   cursor: pointer;
   background-color: var(--dark-orange);
+}
+
+.btn a {
+  color: var(--white);
+  font-weight: 600;
 }

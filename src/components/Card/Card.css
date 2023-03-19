@@ -1,8 +1,7 @@
 .projects__item {
-  color: #000;
   text-align: center;
   margin: 0 1.5%;
-  border: 2px solid #000;
+  border: 2px solid var(--dark-blueish-gray);
   border-radius: 20px;
   overflow: hidden;
   transition: 0.5s;
@@ -32,23 +31,4 @@
 .projects__description p {
   font-size: 1.4rem;
   padding-inline: 2.5rem;
-}
-
-.btn {
-  padding: 1rem 1.5rem;
-  border: none;
-  border-radius: 0.8rem;
-  font-size: 1.5rem;
-  margin-bottom: 2.5rem;
-  transition: 0.3s;
-}
-
-.btn:hover {
-  scale: 1.1;
-}
-
-.btn a {
-  text-decoration: none;
-  color: var(--white);
-  font-weight: 600;
 }
