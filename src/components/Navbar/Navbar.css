@@ -3,14 +3,14 @@
 header {
   background-image: url(../../assets/img/bg.jpg);
   display: flex;
-  color: #fefefe;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  padding: 2rem;
+  font-size: 1.6rem;
 }
 
 .myLogo {
-  height: 45px;
+  height: 50px;
   cursor: pointer;
 }
 
@@ -23,17 +23,13 @@ header {
 }
 
 .menu__link {
-  color: #d4d3d3;
-  margin-right: 1.25rem;
+  color: var(--white);
+  margin-right: 1.4rem;
   text-decoration: none;
   text-transform: capitalize;
-  position: relative;
+  transition: 0.3s;
 }
 
-.menu__link:hover::after {
-  content: "";
-  background: orangered;
-  position: absolute;
-  top: 1rem;
-  width: 100%;
+.menu__link:hover {
+  color: var(--dark-orange);
 }
