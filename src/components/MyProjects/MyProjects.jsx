@@ -28,7 +28,7 @@ function MyProjects() {
           name="Aplicativo Lista de Tarefas"
           foto={todoApp}
           description="Aplicação para controle de tarefas diárias. É possível adicionar e editar novas tarefas. marcá-las como concluídas e excluir."
-          deploy={"https://github.com/heiderick13/genius-game"}
+          deploy={"https://trackyourtasks.vercel.app/"}
         />
         <Card
           name="Lading page com API"
@@ -40,13 +40,13 @@ function MyProjects() {
           name="Jogo Genius"
           foto={geniusGame}
           description="Clone do famoso jogo Genius. Usuário deve clicar nos botões na sequência correta."
-          deploy={"https://github.com/heiderick13/genius-game"}
+          deploy={"https://genius-game-gray.vercel.app/"}
         />
         <Card
           name="Weather App"
           foto={weather}
           description="Aplicativo de pesquisa do tempo ao redor do mundo onde o usuário pode buscar pelo nome de qualquer local que desejar."
-          deploy={"https://github.com/heiderick13/weather-app"}
+          deploy={"https://heiderick13.github.io/weather-app/"}
         />
       </div>
     </section>
