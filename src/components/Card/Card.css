@@ -46,3 +46,9 @@
 .btn:hover {
   scale: 1.1;
 }
+
+.btn a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 600;
+}
