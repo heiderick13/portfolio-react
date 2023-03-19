@@ -11,4 +11,19 @@ html {
 
 :root {
   --white: hsl(0, 5%, 92%);
+  --orange: hsl(39, 100%, 50%);
+  --dark-orange: hsl(33, 100%, 50%);
+}
+
+.btn {
+  border-radius: 0.8rem;
+  box-shadow: 3px 3px 8px #464f57;
+  transition: 0.3s all;
+  background-color: var(--orange);
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  background-color: var(--dark-orange);
 }

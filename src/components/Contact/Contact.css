@@ -1,0 +1,22 @@
+.contact {
+  text-align: center;
+  margin: 0 auto;
+  padding: 4rem;
+}
+
+.contact__title {
+  font-size: 2.8rem;
+  padding-bottom: 1rem;
+}
+
+.contact p {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.contact a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--white);
+}
