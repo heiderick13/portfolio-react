@@ -1,17 +1,18 @@
+.about {
+  padding: 4rem 0;
+}
+
 .about__img {
   height: 150px;
   clip-path: circle();
   filter: brightness(115%);
 }
 
-.about {
-  padding: 2rem 0 2rem;
-}
-
 .about__title {
   text-align: center;
   font-size: 3.5rem;
 }
+
 .about__info {
   display: flex;
   flex-direction: row-reverse;
