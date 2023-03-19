@@ -1,5 +1,4 @@
 footer {
-  /* background-image: url(../../assets/img/bg.jpg); */
   background: var(--secondary-bg);
   text-align: center;
   padding: 2rem;
@@ -7,11 +6,12 @@ footer {
 }
 
 footer a {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   text-decoration: none;
   color: var(--white);
   margin-bottom: 0.5rem;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 footer a:first-child {
@@ -19,10 +19,11 @@ footer a:first-child {
 }
 
 footer a:hover {
-  cursor: pointer;
+  color: var(--blue);
 }
 
 footer p {
+  font-size: 1.2rem;
   text-decoration: none;
   color: var(--white);
   margin-top: 1rem;
