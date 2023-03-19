@@ -11,7 +11,9 @@ function Card({ name, foto, description, deploy }) {
         <p>{description}</p>
       </div>
       <button className="btn">
-        <a href={deploy}>Confira</a>
+        <a href={deploy} target="_blank">
+          Confira
+        </a>
       </button>
     </div>
   );
