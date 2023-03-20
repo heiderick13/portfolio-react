@@ -5,7 +5,7 @@ function ContactForm() {
     <>
       <div class="contact-form">
         <form
-          action="https://formsubmit.co/90f2dc9c8eca901b87e175d6da41b128 "
+          action="https://formsubmit.co/marceloheiderick@outlook.com"
           method="POST"
         >
           <label>
