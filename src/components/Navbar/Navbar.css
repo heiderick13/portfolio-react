@@ -1,7 +1,6 @@
 @import "../../styles/main.css";
 
 header {
-  /* background-image: url(../../assets/img/bg.jpg); */
   background: var(--secondary-bg);
   display: flex;
   align-items: center;
