@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 import logo from "../../assets/img/logo-mobile.png";
 
 function Navbar() {
@@ -13,7 +14,9 @@ function Navbar() {
 
   return (
     <header>
-      <img className="myLogo" src={logo} alt="" />
+      <Link to={"/"}>
+        <img className="myLogo" src={logo} alt="" />
+      </Link>
       <nav className="menu">
         <ul className="menu__lista">
           <li className="menu__item" onClick={handleClickScroll}>

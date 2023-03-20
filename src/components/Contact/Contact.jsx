@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Contact.css";
 
 function Contact() {
@@ -9,7 +10,7 @@ function Contact() {
         atender!
       </p>
       <button className="btn">
-        <a href="form.html">Contato</a>
+        <Link to="/contactme">Contato</Link>
       </button>
     </section>
   );
