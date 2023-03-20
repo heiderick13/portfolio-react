@@ -26,3 +26,16 @@
   padding-right: 5rem;
   line-height: 1.5;
 }
+
+@media screen and (max-width: 900px) {
+  .about__info {
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-inline: 20%;
+  }
+
+  .about__info p {
+    text-align: justify;
+    padding: 0;
+  }
+}
