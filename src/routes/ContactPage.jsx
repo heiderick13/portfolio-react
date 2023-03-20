@@ -1,10 +1,9 @@
-// import Navbar from "../components/Navbar/Navbar";
-// import Footer from "../components/Footer/Footer";
+import Form from "../components/ContactForm/ContactForm";
 
 function ContactPage() {
   return (
     <>
-      <h1>Fala comigo!</h1>
+      <Form />
     </>
   );
 }

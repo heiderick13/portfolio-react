@@ -20,7 +20,7 @@ function MyProjects() {
         />
         <Card
           name="
-          Página de Produto em Ecommerce"
+          Página de Produto"
           foto={ecommerce}
           description="Página de produto em site de e-commerce onde é possível adicionar e excluir item do carrinho. Além disso é possível mudar a foto do produto em display."
           deploy={"https://ecommerce-product-page-green.vercel.app/"}
