@@ -13,15 +13,16 @@ function MyProjects() {
       <h2 className="projects__title">Meus últimos projetos</h2>
       <div className="projects__list">
         <Card
-          name="Product Preview"
+          name="Calculadora"
           foto={calculator}
-          description="Página de preview de um perfume desenvolvida com HTML e CSS"
+          description="Calculadora desenvolvida com o paradigma de orientação a objetos, método muito popular e requisitado no mundo da programação."
           deploy={"https://heiderick13.github.io/calculator-oop/"}
         />
         <Card
-          name="Página de Login"
+          name="
+          Página de Produto em Ecommerce"
           foto={ecommerce}
-          description="Página de login com HTML e CSS"
+          description="Página de produto em site de e-commerce onde é possível adicionar e excluir item do carrinho. Além disso é possível mudar a foto do produto em display."
           deploy={"https://ecommerce-product-page-green.vercel.app/"}
         />
         <Card
