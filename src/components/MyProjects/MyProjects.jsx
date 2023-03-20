@@ -9,7 +9,7 @@ import todoApp from "../../assets/img/todo-app.png";
 
 function MyProjects() {
   return (
-    <section className="projects">
+    <section id="projects" className="projects">
       <h2 className="projects__title">Meus últimos projetos</h2>
       <div className="projects__list">
         <Card
