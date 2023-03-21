@@ -47,7 +47,7 @@ function MyProjects() {
           name="Weather App"
           foto={weather}
           description="Aplicativo de pesquisa do tempo ao redor do mundo onde o usuário pode buscar pelo nome de qualquer local que desejar."
-          deploy={"https://heiderick13.github.io/weather-app/"}
+          deploy={"https://searchtheweather.vercel.app/"}
         />
       </div>
     </section>
