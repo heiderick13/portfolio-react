@@ -15,7 +15,19 @@
 }
 
 .logos img {
-  height: 70px;
-  -webkit-clip-path: inset(3% 1% 4% 1%);
-  clip-path: inset(3% 1% 4% 1%);
+  height: 65px;
+}
+
+@media screen and (max-width: 768px) {
+  .techs {
+    padding-inline: 10%;
+  }
+
+  .logos {
+    padding-inline: 0;
+  }
+
+  .logos img {
+    height: 45px;
+  }
 }
