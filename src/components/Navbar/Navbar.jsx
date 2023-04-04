@@ -1,6 +1,6 @@
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-import logo from "../../assets/img/logo-mobile.png";
+import logo from "../../assets/img/logo.svg";
 
 function Navbar() {
   const handleClickScroll = (e) => {
