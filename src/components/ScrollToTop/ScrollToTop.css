@@ -1,0 +1,17 @@
+.top-btn {
+  position: fixed;
+  right: 2%;
+  bottom: 1%;
+  font-size: 28px;
+  border: none;
+  background-color: var(--orange);
+  padding: 1rem;
+  clip-path: circle();
+  opacity: 0.5;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.top-btn:hover {
+  opacity: 1;
+}
