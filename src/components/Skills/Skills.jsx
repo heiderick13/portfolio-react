@@ -3,7 +3,7 @@ import foto from "../../assets/img/trabalhando.png";
 
 function Skills() {
   return (
-    <section id="skills" class="skills">
+    <section id="habilidades" class="skills">
       <h3 class="skills__title">Minhas habilidades</h3>
       <div class="skills__content">
         <img class="skills__img" src={foto} alt="" />
