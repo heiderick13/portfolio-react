@@ -9,9 +9,9 @@ function Contact() {
         Faça contato comigo e conheça melhor meu trabalho. Vai ser um prazer te
         atender!
       </p>
-      <button className="btn">
-        <Link to="/contactme">Contato</Link>
-      </button>
+      <Link to="/contactme">
+        <button className="btn">Contato</button>
+      </Link>
     </section>
   );
 }
