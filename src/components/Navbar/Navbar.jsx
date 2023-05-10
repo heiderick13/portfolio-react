@@ -20,19 +20,13 @@ function Navbar() {
       <nav className="menu">
         <ul className="menu__lista">
           <li className="menu__item" onClick={handleClickScroll}>
-            <a className="menu__link" href="#projetos">
-              projects
-            </a>
+            <a className="menu__link">projetos</a>
           </li>
           <li className="menu__item" onClick={handleClickScroll}>
-            <a className="menu__link" href="#habilidades">
-              skills
-            </a>
+            <a className="menu__link">habilidades</a>
           </li>
           <li className="menu__item" onClick={handleClickScroll}>
-            <a className="menu__link" href="#contato">
-              contact
-            </a>
+            <a className="menu__link">contato</a>
           </li>
         </ul>
       </nav>

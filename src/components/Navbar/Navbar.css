@@ -9,6 +9,10 @@ header {
   font-size: 1.6rem;
 }
 
+a {
+  cursor: pointer;
+}
+
 .myLogo {
   width: 150px;
   cursor: pointer;
