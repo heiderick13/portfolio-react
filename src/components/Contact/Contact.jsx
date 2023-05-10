@@ -3,8 +3,8 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <section id="contato" class="contact">
-      <h3 class="contact__title">Entre em contato comigo</h3>
+    <section id="contato" className="contact">
+      <h3 className="contact__title">Entre em contato comigo</h3>
       <p>
         Faça contato comigo e conheça melhor meu trabalho. Vai ser um prazer te
         atender!

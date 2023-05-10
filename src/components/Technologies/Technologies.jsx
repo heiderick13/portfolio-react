@@ -7,9 +7,9 @@ import react from "../../assets/img/logo-react.png";
 
 function Technologies() {
   return (
-    <section class="techs">
-      <div class="techs__content">
-        <h3 class="techs__title">Tecnologias utilizadas no seu projeto</h3>
+    <section className="techs">
+      <div className="techs__content">
+        <h3 className="techs__title">Tecnologias utilizadas no seu projeto</h3>
         <div className="logos">
           <img src={html} alt="Logo HTML" />
           <img src={css} alt="Logo CSS" />

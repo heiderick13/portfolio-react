@@ -3,10 +3,10 @@ import foto from "../../assets/img/trabalhando.png";
 
 function Skills() {
   return (
-    <section id="habilidades" class="skills">
-      <h3 class="skills__title">Minhas habilidades</h3>
-      <div class="skills__content">
-        <img class="skills__img" src={foto} alt="" />
+    <section id="habilidades" className="skills">
+      <h3 className="skills__title">Minhas habilidades</h3>
+      <div className="skills__content">
+        <img className="skills__img" src={foto} alt="" />
         <p>
           Acostumado a trabalhar com atendimento ao público, tenho facilidade em
           entender suas necessidades como cliente e traduzir isso para lhe

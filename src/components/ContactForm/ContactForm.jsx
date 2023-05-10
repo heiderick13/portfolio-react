@@ -3,7 +3,7 @@ import "./ContactForm.css";
 function ContactForm() {
   return (
     <>
-      <div class="contact-form">
+      <div className="contact-form">
         <form
           action="https://formsubmit.co/36bce0cac811085040d8364dde7c256e"
           method="POST"
@@ -11,7 +11,7 @@ function ContactForm() {
           <label>
             Nome e Sobrenome*
             <input
-              class="input__padrao"
+              className="input__padrao"
               type="text"
               name="full-name"
               placeholder="Digite seu nome e sobrenome aqui"
@@ -22,7 +22,7 @@ function ContactForm() {
           <label>
             Email*
             <input
-              class="input__padrao"
+              className="input__padrao"
               type="email"
               name="email"
               placeholder="exemplo@email.com"
@@ -33,7 +33,7 @@ function ContactForm() {
           <label>
             Telefone*
             <input
-              class="input__padrao"
+              className="input__padrao"
               type="tel"
               name="tel"
               placeholder="(XX)XXXXX-XXXX"
@@ -44,7 +44,7 @@ function ContactForm() {
           <label>
             Deixe uma mensagem
             <textarea
-              class="input__padrao"
+              className="input__padrao"
               name="message"
               placeholder="Mensagem"
               rows="5 "
@@ -52,7 +52,7 @@ function ContactForm() {
             ></textarea>
           </label>
 
-          <button class="btn">Enviar Formulário</button>
+          <button className="btn">Enviar Formulário</button>
         </form>
       </div>
     </>

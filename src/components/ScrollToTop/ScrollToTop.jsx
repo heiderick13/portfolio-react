@@ -7,7 +7,7 @@ function ScrollToTop() {
   }
   return (
     <span onClick={scrollToTop} className="top-btn">
-      <i class="bi bi-chevron-up"></i>
+      <i className="bi bi-chevron-up"></i>
     </span>
   );
 }
