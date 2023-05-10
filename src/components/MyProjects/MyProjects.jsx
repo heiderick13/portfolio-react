@@ -1,10 +1,10 @@
 import "./MyProjects.css";
 import Card from "../Card/Card";
-import calculator from "../../assets/img/calculator.png";
+import countries from "../../assets/img/countries.png";
 import ecommerce from "../../assets/img/ecommerce-product.png";
 import shortUrl from "../../assets/img/shortening-url.png";
 import spaceTourism from "../../assets/img/space-tourism.png";
-import weather from "../../assets/img/weather-app.png";
+import kanban from "../../assets/img/kanban.png";
 import todoApp from "../../assets/img/todo-app.png";
 
 function MyProjects() {
@@ -16,7 +16,19 @@ function MyProjects() {
           name="Turismo Espacial"
           foto={spaceTourism}
           description="Página de uma agência de turismo espacial. São apresentados os destinos, tripulação e tecnologias utilizadas na sua viagem ao espaço."
-          deploy={"https://travelthruspace.vercel.app/"}
+          deploy={"https://space-project-rho.vercel.app/"}
+        />
+        <Card
+          name="pesquisa de países"
+          foto={countries}
+          description="Nesse site é possível ver uma lista com todos os países do mundo além de buscar um país por nome (apenas em inglês) e filtrar por continente."
+          deploy={"https://countries-api-eight-kohl.vercel.app/"}
+        />
+        <Card
+          name="KanBan App"
+          foto={kanban}
+          description="Aplicação para organizar as tarefas do dia a dia ou da semana. Você pode marcar cada tarefa de acordo com o status atual, conforme for avançando em cada uma."
+          deploy={"https://kanban-react-two.vercel.app/"}
         />
         <Card
           name="
@@ -36,18 +48,6 @@ function MyProjects() {
           foto={todoApp}
           description="Aplicação para controle de tarefas diárias. É possível adicionar e editar novas tarefas. marcá-las como concluídas e excluir."
           deploy={"https://trackyourtasks.vercel.app/"}
-        />
-        <Card
-          name="Weather App"
-          foto={weather}
-          description="Aplicativo de pesquisa do tempo ao redor do mundo onde o usuário pode buscar pelo nome de qualquer local que desejar."
-          deploy={"https://searchtheweather.vercel.app/"}
-        />
-        <Card
-          name="Calculadora"
-          foto={calculator}
-          description="Calculadora desenvolvida com o paradigma de orientação a objetos, método muito popular e requisitado no mundo da programação."
-          deploy={"https://heiderick13.github.io/calculator-oop/"}
         />
       </div>
     </section>
